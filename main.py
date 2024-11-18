@@ -162,8 +162,8 @@ st.subheader(f"**Suggested Diet:** {diet_suggestion}")
 
 # diet suggestion 
 
-data = pd.read_csv("./wweia_dataset/wweia_data.csv")
-data_category = pd.read_csv("./wweia_dataset/wweia_food_categories_addtl.csv")
+data = pd.read_csv("wweia_data.csv")
+data_category = pd.read_csv("wweia_food_categories_addtl.csv")
 updated = data.iloc[:,3:]
 updt = data.iloc[:,:3]
 df=data
@@ -459,7 +459,7 @@ for category in selected:
             selected_indices.extend(index)
 if len(selected) == 6:
     header_list = ["wweia_food_category_code", "wweia_food_category_description", "larger_category", "same_category"]
-    df1 = pd.read_csv('./wweia_dataset/wweia_food_categories_addtl.csv', skiprows=lambda x: x not in selected_indices, names=header_list)
+    df1 = pd.read_csv('wweia_food_categories_addtl.csv', skiprows=lambda x: x not in selected_indices, names=header_list)
 
     def category_code():
         return df1["wweia_food_category_code"]
