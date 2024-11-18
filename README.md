@@ -109,7 +109,7 @@ Both components aim to assist users in maintaining a balanced diet and making in
 ---
 
 ## **Contributors**
-- **Rajat Khandelwal**  [LinkedIn](https://linkedin.com/in/your-profile)  
+- **Rajat Khandelwal**  [LinkedIn](https://www.linkedin.com/in/rajat-khandelwal-89904222b/)  
 
 ---
 
